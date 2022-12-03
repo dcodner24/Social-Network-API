@@ -70,53 +70,53 @@ const reactions = [
 const thoughts = [
     {
         thoughtText: 'Good idea,looking forward to seeing it',
-        username: 'preston1',
+        username: 'David1',
         reactions: reactions.slice(0, 2)
     },
     {
         thoughtText: 'Wow, I never would have thought of that',
-        username: 'preston2'
+        username: 'David2'
     },
     {
         thoughtText: 'I dont know about that one',
-        username: 'preston3'
+        username: 'David3'
     },
     {
         thoughtText: 'What a novel idea',
-        username: 'preston4'
+        username: 'David4'
     },
     {
         thoughtText: 'What about implementation?',
-        username: 'preston5'
+        username: 'David5'
     },
     {
         thoughtText: 'Not a fan',
-        username: 'preston6'
+        username: 'David6'
     },
     {
         thoughtText: 'How does this even work?',
-        username: 'preston7'
+        username: 'David7'
     },
     {
         thoughtText: 'Love it',
-        username: 'preston8',
+        username: 'David8',
         reactions: reactions.slice(2, 5)
     },
     {
         thoughtText: 'Collab?',
-        username: 'preston4'
+        username: 'David4'
     },
     {
         thoughtText: 'Where can we find the repo?',
-        username: 'preston3'
+        username: 'David3'
     },
     {
         thoughtText: 'Is there a gitgub project for this?',
-        username: 'preston4'
+        username: 'David4'
     },
     {
         thoughtText: 'I think we should be super meta and have commentary on the course.',
-        username: 'preston3',
+        username: 'David3',
         reactions: reactions.slice(5)
     },
 ];
