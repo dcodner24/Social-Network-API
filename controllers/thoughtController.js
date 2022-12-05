@@ -77,7 +77,6 @@ const createReaction = async (req, res) => {
         if (!updatedThought) {
             res.status(404).json({ message: `could not create reaction for thought ${req.params.thoughtId}`, body: req.body })
         } else {
-            console.log('Reaction created and added to thought')
             res.status(200).json(updatedThought)
         }
     } catch (err) {
@@ -91,7 +90,6 @@ const deleteReaction = async (req, res) => {
         if (!updatedThought) {
             res.status(404).json({ message: `Could not delete reaction for thought ${req.params.thoughtId}`, body: req.body })
         } else {
-            console.log('Reaction deleted')
             res.status(200).json(updatedThought)
         }
     } catch (err) {

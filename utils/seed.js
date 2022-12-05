@@ -129,21 +129,28 @@ const thoughts = [
 connection.on('error', (err) => err);
 
 connection.once('open', async () => {
-    console.log("initializing connection");
+    console.log("===================================")
+    console.log("Initializing Connection");
     // delete all table contents
     await Thought.deleteMany({});
     await User.deleteMany({});
     console.log("Database cleared");
 
+    console.log("===================================")
     console.log("Seeding Users");
     await User.collection.insertMany(users);
     console.log("Users successfully seeded")
 
+    console.log("===================================")
+    console.log("Seeding Thoughts and Reactions");
 for (let i = 0; i < thoughts.length; i++) {
     let newThought = await Thought.create(thoughts[i]);
     await User.findOneAndUpdate({ username: thoughts[i].username }, { $push: { thoughts: newThought._id } });
 }
-console.log("Database seeded")
+console.log("Thoughts and Reactions Seeded");
+console.log("===================================")
+console.log("   ")
+console.log("Database Seeded, Happy Hacking!")
 process.exit(0);
 });
 
