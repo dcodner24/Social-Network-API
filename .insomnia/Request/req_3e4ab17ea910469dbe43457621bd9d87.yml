@@ -1,15 +1,23 @@
 _id: req_3e4ab17ea910469dbe43457621bd9d87
 type: Request
 parentId: fld_4a4b68ac82d744d08b916c5a284bc464
-modified: 1670096225131
+modified: 1670210171440
 created: 1670096061759
-url: ""
+url: http://localhost:3001/api/thoughts/638d61398a8df3f920376259/reactions
 name: Create a Reaction
 description: ""
-method: GET
-body: {}
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"reactionBody":"This is so true!",
+    	"username":"David1"
+    }
 parameters: []
-headers: []
+headers:
+  - name: Content-Type
+    value: application/json
 authentication: {}
 metaSortKey: -1670096058177
 isPrivate: false

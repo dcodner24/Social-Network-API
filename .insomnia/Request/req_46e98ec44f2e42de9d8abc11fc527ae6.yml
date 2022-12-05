@@ -1,15 +1,24 @@
 _id: req_46e98ec44f2e42de9d8abc11fc527ae6
 type: Request
 parentId: fld_da81bea94dad474c9ec3e6c7e1b3c8ec
-modified: 1670096037460
+modified: 1670209869855
 created: 1670095915352
-url: ""
+url: http://localhost:3001/api/thoughts
 name: Create a New Thought
 description: ""
 method: POST
-body: {}
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"thoughtText": "This is a thought",
+    	"username": "Timothy"
+    }
 parameters: []
-headers: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_8c797d3bdcc64a46a7a1a406e8f964fc
 authentication: {}
 metaSortKey: -1670095937127
 isPrivate: false

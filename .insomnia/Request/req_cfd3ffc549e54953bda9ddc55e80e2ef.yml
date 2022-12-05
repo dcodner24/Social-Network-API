@@ -1,15 +1,23 @@
 _id: req_cfd3ffc549e54953bda9ddc55e80e2ef
 type: Request
 parentId: fld_da81bea94dad474c9ec3e6c7e1b3c8ec
-modified: 1670096117998
+modified: 1670209823560
 created: 1670095932371
-url: ""
+url: http://localhost:3001/api/thoughts/638d5d4dcbc3c31e2816c2f1
 name: Update a Thought by ID
 description: ""
 method: PUT
-body: {}
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"thoughtText": "This is a new and improved thought",
+    	"username": "Timothy"
+    }
 parameters: []
-headers: []
+headers:
+  - name: Content-Type
+    value: application/json
 authentication: {}
 metaSortKey: -1670095937027
 isPrivate: false

@@ -1,9 +1,9 @@
 _id: req_a4f7959206fb4e50b8b349ec4b5cc4f2
 type: Request
 parentId: fld_da81bea94dad474c9ec3e6c7e1b3c8ec
-modified: 1670095976418
+modified: 1670208066712
 created: 1670095929814
-url: ""
+url: http://localhost:3001/api/thoughts
 name: Get All Thoughts
 description: ""
 method: GET

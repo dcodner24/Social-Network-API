@@ -1,9 +1,9 @@
 _id: req_8e85ea7ac6514cf4b4b1eb244ddd3ee7
 type: Request
 parentId: fld_086c41186f144d55b48d5e92d68cdf4b
-modified: 1670097484443
+modified: 1670208538445
 created: 1670096132908
-url: http://localhost:3001/api/users/638baa1873ebedae7a3f96db
+url: http://localhost:3001/api/users/638d5c0bcbc3c31e2816c2e3
 name: Get User by ID
 description: ""
 method: GET
