@@ -1,0 +1,26 @@
+_id: req_7f054b0792ff437da0d4fb49ebf76b6c
+type: Request
+parentId: fld_da81bea94dad474c9ec3e6c7e1b3c8ec
+modified: 1670096008498
+created: 1666710525224
+url: http://localhost:3001/api/thought
+name: Get a Thought by ID
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_9e00a632e5a54cd59f71bf265d226dee
+authentication: {}
+metaSortKey: -1670095937077
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

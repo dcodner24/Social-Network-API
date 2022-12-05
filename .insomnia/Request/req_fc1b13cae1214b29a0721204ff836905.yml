@@ -1,0 +1,21 @@
+_id: req_fc1b13cae1214b29a0721204ff836905
+type: Request
+parentId: fld_086c41186f144d55b48d5e92d68cdf4b
+modified: 1670097190175
+created: 1670096217311
+url: http://localhost:3001/api/users/638ba8bc0601c75ac884dc20/friends/638b9ea7ef3e11a8e80a6426
+name: Delete a Friend by ID
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1670096141708
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
