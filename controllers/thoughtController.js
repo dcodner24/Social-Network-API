@@ -73,7 +73,7 @@ const deleteThought = async (req, res) => {
 
 const createReaction = async (req, res) => {
     try {
-        const updatedThought = await Thought.findOneAndUpdate({ _id: req.params.thoughtId }, { $push: { reactions: req.body } }, { new: true });
+        const updatedThought = await Thought.findOneAndUpdate({ _id: req.params.thoughtId }, { $push: {reactions: req.body} }, { new: true });
         if (!updatedThought) {
             res.status(404).json({ message: `could not create reaction for thought ${req.params.thoughtId}`, body: req.body })
         } else {
@@ -86,7 +86,7 @@ const createReaction = async (req, res) => {
 
 const deleteReaction = async (req, res) => {
     try {
-        const updatedThought = await Thought.findOneAndUpdate({ _id: req.params.thoughtId }, { $pull: { reactions: { reactionId: ObjectId(req.params.reactionId) } } }, { new: true });
+        const updatedThought = await Thought.findOneAndUpdate({ _id: req.params.thoughtId }, { $pull: {reactions:{ reactionId: req.params.reactionId}} } , { new: true });
         if (!updatedThought) {
             res.status(404).json({ message: `Could not delete reaction for thought ${req.params.thoughtId}`, body: req.body })
         } else {
