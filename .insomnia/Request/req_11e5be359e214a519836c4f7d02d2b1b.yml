@@ -1,9 +1,9 @@
 _id: req_11e5be359e214a519836c4f7d02d2b1b
 type: Request
 parentId: fld_da81bea94dad474c9ec3e6c7e1b3c8ec
-modified: 1670096109258
+modified: 1670209835662
 created: 1670095936977
-url: ""
+url: http://localhost:3001/api/thoughts/638d5d4dcbc3c31e2816c2f1
 name: Delete a Thought by ID
 description: ""
 method: DELETE

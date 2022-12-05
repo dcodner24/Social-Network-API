@@ -1,9 +1,9 @@
 _id: req_1c124a8c449c4319ae80164c4047738d
 type: Request
 parentId: fld_4a4b68ac82d744d08b916c5a284bc464
-modified: 1670096097091
+modified: 1670210604383
 created: 1670096058127
-url: ""
+url: http://localhost:3001/api/thoughts/638d61398a8df3f920376259/reactions/638d60ae8a8df3f920376245
 name: Delete a Reaction by ID
 description: ""
 method: DELETE

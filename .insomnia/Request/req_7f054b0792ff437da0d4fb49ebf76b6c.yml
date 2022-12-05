@@ -1,9 +1,9 @@
 _id: req_7f054b0792ff437da0d4fb49ebf76b6c
 type: Request
 parentId: fld_da81bea94dad474c9ec3e6c7e1b3c8ec
-modified: 1670096008498
+modified: 1670209939941
 created: 1666710525224
-url: http://localhost:3001/api/thought
+url: http://localhost:3001/api/thoughts/638d61398a8df3f920376259
 name: Get a Thought by ID
 description: ""
 method: GET
