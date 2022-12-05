@@ -1,0 +1,21 @@
+_id: req_1c124a8c449c4319ae80164c4047738d
+type: Request
+parentId: fld_4a4b68ac82d744d08b916c5a284bc464
+modified: 1670096097091
+created: 1670096058127
+url: ""
+name: Delete a Reaction by ID
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1670096058127
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

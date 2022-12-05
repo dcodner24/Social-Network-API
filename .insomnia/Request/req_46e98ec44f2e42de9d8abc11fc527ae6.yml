@@ -1,0 +1,21 @@
+_id: req_46e98ec44f2e42de9d8abc11fc527ae6
+type: Request
+parentId: fld_da81bea94dad474c9ec3e6c7e1b3c8ec
+modified: 1670096037460
+created: 1670095915352
+url: ""
+name: Create a New Thought
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1670095937127
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

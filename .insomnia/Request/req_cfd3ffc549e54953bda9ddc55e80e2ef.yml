@@ -1,0 +1,21 @@
+_id: req_cfd3ffc549e54953bda9ddc55e80e2ef
+type: Request
+parentId: fld_da81bea94dad474c9ec3e6c7e1b3c8ec
+modified: 1670096117998
+created: 1670095932371
+url: ""
+name: Update a Thought by ID
+description: ""
+method: PUT
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1670095937027
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

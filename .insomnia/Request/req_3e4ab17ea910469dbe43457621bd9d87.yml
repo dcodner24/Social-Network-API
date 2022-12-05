@@ -1,0 +1,21 @@
+_id: req_3e4ab17ea910469dbe43457621bd9d87
+type: Request
+parentId: fld_4a4b68ac82d744d08b916c5a284bc464
+modified: 1670096225131
+created: 1670096061759
+url: ""
+name: Create a Reaction
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1670096058177
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
