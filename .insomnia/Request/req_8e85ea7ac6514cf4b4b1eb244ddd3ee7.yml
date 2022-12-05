@@ -1,0 +1,25 @@
+_id: req_8e85ea7ac6514cf4b4b1eb244ddd3ee7
+type: Request
+parentId: fld_086c41186f144d55b48d5e92d68cdf4b
+modified: 1670097484443
+created: 1670096132908
+url: http://localhost:3001/api/users/638baa1873ebedae7a3f96db
+name: Get User by ID
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1670096141958
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,21 @@
+_id: req_b926075e2e4841a3956aa15ad17ea599
+type: Request
+parentId: fld_086c41186f144d55b48d5e92d68cdf4b
+modified: 1670097587130
+created: 1670096216225
+url: http://localhost:3001/api/users/638ba9fa2b70ffeffc98675d/friends/638b9ea7ef3e11a8e80a6426
+name: Add a Friend by ID
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1670096141758
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

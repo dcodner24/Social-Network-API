@@ -1,0 +1,21 @@
+_id: req_a4f7959206fb4e50b8b349ec4b5cc4f2
+type: Request
+parentId: fld_da81bea94dad474c9ec3e6c7e1b3c8ec
+modified: 1670095976418
+created: 1670095929814
+url: ""
+name: Get All Thoughts
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1670095937177
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

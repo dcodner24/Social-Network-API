@@ -1,0 +1,29 @@
+_id: req_77903469da1e4a66a2861cf57ede14e4
+type: Request
+parentId: fld_086c41186f144d55b48d5e92d68cdf4b
+modified: 1670097208632
+created: 1670096134056
+url: http://localhost:3001/api/users/638ba736dda0576fcf80cf32
+name: Update a User by ID
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "username": "George",
+        "email": "george@email.com"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1670096141908
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
