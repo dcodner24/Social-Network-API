@@ -15,6 +15,6 @@ app.use(routes);
 
 db.once('open', () => {
   app.listen(PORT, () => {
-    console.log(`API server for Social API running on port ${PORT}!`);
+    console.log(`API server for Social API running on port ${PORT}! Use http://localhost:3001/api/ in Insomnia to get started!`);
   });
 });
